@@ -28,7 +28,7 @@ for i in datos["humanos"]:
         attrs['uidNumber'] = str(uidNumber)
         attrs['gidNUmber'] = str(gidNumber)
         attrs['mail'] = str(i["correo"])
-        attrs['sshPublicKey'] = str(i["clave"])
+        attrs['sshPublicKey'] = "ssh-rsa" + str(i["clave"])
         attrs['homeDirectory'] = ['/home/%s' % (str(i["usuario"]))]
         attrs['loginShell'] = ['/bin/bash']
         ldif = modlist.addModlist(attrs)
