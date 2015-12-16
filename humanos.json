@@ -1,0 +1,12 @@
+{
+    "humanos" : [
+
+        {
+            "nombre" : "Jon",
+            "apellidos" : "Snow",
+            "correo" : "fantasma@gmail.com",
+            "usuario" : "jon.snow",
+            "clave" : "AAAAB3NzaC1yc2EAAAADAQABAAABAQqfansflasnfiownflanflnawifnalsnfanl" 
+        }
+    ]
+}
